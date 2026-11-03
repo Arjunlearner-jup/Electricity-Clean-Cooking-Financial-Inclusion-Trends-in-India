@@ -1,6 +1,6 @@
-# Trends and Inequalities in Electricity, Clean-Cooking Access and Financial Inclusion in India
+# Electricity, Clean Cooking & Financial Inclusion Trends in India
 
-Th project cleans three World Development Indicators (WDI) source tables in the `wdi_india` database: `dataset1`, `wdicountry`, and `wdiseries`. The SQL scripts use MySQL syntax. Run each script against a database containing the corresponding raw table.
+The project cleans three World Development Indicators (WDI) source tables in the `wdi_india` database: `dataset1`, `wdicountry`, and `wdiseries`. The SQL scripts use MySQL syntax. Run each script against a database containing the corresponding raw table.
 
 ## Source tables and scripts
 
