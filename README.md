@@ -6,9 +6,9 @@ Th project cleans three World Development Indicators (WDI) source tables in the 
 
 | Source table | Cleaning script | Cleaned output |
 |:-------------|:----------------|:---------------|
-| `dataset1` | [`dataset1_cleaning.sql`](dataset1_cleaning.sql) | `dataset1_clean_long` |
-| `wdicountry` | [`wdicountry_cleaning.sql`](wdicountry_cleaning.sql) | `wdicountry_clean` |
-| `wdiseries` | [`wdiseries_cleaning.sql`](wdiseries_cleaning.sql) | `wdiseries_clean` |
+| `dataset1` | [`dataset1_cleaning.sql`] | `dataset1_clean_long` |
+| `wdicountry` | [`wdicountry_cleaning.sql`] | `wdicountry_clean` |
+| `wdiseries` | [`wdiseries_cleaning.sql`] | `wdiseries_clean` |
 ## `dataset1` → `dataset1_clean_long`
 
 The raw `dataset1` table is in WDI wide format: its first four columns identify the country and indicator, while columns `C4` through `C69` hold yearly values.
