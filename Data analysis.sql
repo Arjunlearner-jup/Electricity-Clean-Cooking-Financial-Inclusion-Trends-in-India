@@ -1,5 +1,4 @@
-#Use one indicator per chart, or compare related indicators that share a unit. Replace the code to explore a different indicator.
-#linechart
+#1. Compare related indicators that share a unit
 SELECT
     l.year,
     l.indicator_code,
